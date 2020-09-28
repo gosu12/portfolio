@@ -1,4 +1,6 @@
 
+/* mobile view */
+
 @media only screen and (max-aspect-ratio: 3/2), only screen and (max-width: 812px){
     #mobile {
         height: 100vh;
@@ -20,7 +22,7 @@
     }
 }
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* scroll muot hon */
     transition-delay: 0.1s;
 }
 body {
@@ -43,8 +45,8 @@ header {
     float: right;
     padding: 9px 50px;
     background-color: bisque;
-    border-radius: 8px;
-    flex-direction: row;
+    border-radius: 8px; 
+    flex-direction: row;     /* button in header */
     font-size: 18px;
     letter-spacing: 1px;
     opacity: 0.9;
@@ -52,7 +54,7 @@ header {
 }
 .bar div:hover {
     background-image: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
-    color: mediumvioletred;
+    color: mediumvioletred;  /* button in header */
     transition-delay: 0.05s;
 }
 
@@ -294,18 +296,22 @@ li {
 a {
     text-decoration: none;
 }
+
 .facebook a {
-    background-color: #3498db;
+    background-color: #3498db;  /*button facebook*/
     border-radius: 10px;
 }
 .instagram a {
-    background-color: #f68084;
+    background-color: #f68084;  /* button instagram */
     border-radius: 10px;
 }
 .github a {
-    background-color: #2c3e50;
+    background-color: #2c3e50;    /* button github */
     border-radius: 10px;
 }
+
+/*-----box-message-----*/
+
 input[type=text],
 input[type=password] {
     width: 100%;
@@ -325,14 +331,11 @@ button {
     cursor: pointer;
     width: 100%;
 }
-
 .cancelbtn {
     width: auto;
     padding: 10px 18px;
     background-color: #4682b4;
 }
-/* Center the image and position
-the close button */
 .imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
