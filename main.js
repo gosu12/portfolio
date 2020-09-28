@@ -4,13 +4,13 @@ function myFunction4() {
     document.getElementById("link").innerHTML = str.link("http://github.com/gosu12");
 }
 function myFunction1() {
-    document.getElementById("temp1").innerHTML = "Below is my github link <br>" + myFunction4();
+    document.getElementById("temp1").innerHTML = "below is my github link <br>" + myFunction4();
 }
 function myFunction2() {
     document.getElementById("temp2").innerHTML = " a few small pictures below ... ";
 }
 function myFunction3() {
-    document.getElementById("temp3").innerHTML = "solo yasuo ko anh oi????";
+    document.getElementById("temp3").innerHTML = "do you want to solo with me?";
 }
 let modal = document.getElementById
 ('id01');
