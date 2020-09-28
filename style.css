@@ -26,7 +26,7 @@ html {
     transition-delay: 0.1s;
 }
 body {
-    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: system-ui;
     font-size: 16px;
     line-height: 1.6;
 }
@@ -76,7 +76,8 @@ header {
 .heading1 {
     float: left;
     margin: 50px;
-    letter-spacing: 2px;
+    font-size: 40px;
+    font-family: system-ui;
 }
 
 .para-at-home p{
