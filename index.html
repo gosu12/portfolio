@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="bar">
+            <div class="contact"><a href="#contact">contact</a></div>
+            <div class="about"><a href="#about">about</a></div>
+            <div class="skills"><a href="#skills">skills</a></div>
+            <div class="home"><a href="#home">home</a></div>
+        </div>
+    </header>
+    <div class="heading1">
+        <h1>my portfolio</h1>
+    </div>
+    <div id="home" class="background-img-1">
+        <div>
+            <img class="avatar" src="pictures/107038168_285137626027623_598273489870745370_n.jpg" alt="me.jpg">
+        </div>
+        <div class="para-at-home">
+            <p><b>hello, i'm Huy</b> <br> glad you're here,  <br>
+                I hope you're interested in my information on the website <br>
+            </p>
+        </div>
+    </div>
+    <div class="background-img-2">
+        <div style="color: #000000; font-size: 60px; margin-left: 200px; margin-top: 50px">
+            <p id="skills" style="padding: 25px"></p>
+            <p>skills</p>
+            <p style="font-size: 16px"> <kbd> (click on the section you are interested in for more information</kbd>)</p>
+            <p style="padding: 5px; position: relative; background-color: #fed6e3"></p>
+        </div>
+        <div class="para-at-skills">
+            <ul>
+                <li class="li1"><p onclick="myFunction1()"> HTML/CSS <br> Javascript </p> <p id="temp1" class="nguoiyeucu"></p><p id="link" class="link"></p></li>
+                <li class="li2"><p onclick="myFunction2()">Adobe Photoshop <br> Adobe Illustrator </p><p id="temp2" class="nguoiyeucu"></p></li>
+                <li class="li3"><p onclick="myFunction3()">League of Legends, PUBG, Valorant <br> CS:GO, Yasuo thong thao 7 </p><p id="temp3" class="nguoiyeucu"></p></li>
+            </ul>
+        </div>
+        <div>
+            <div class="show-img">
+                <p style="margin-top: 300px; margin-left: 500px; font-size: 30px">  Some of the publications i made... </p>
+                <img class="fuck" src="pictures/IMG_0ds4.png" alt="nothing">
+                <img class="fuck" src="pictures/PicsArt_08-31-09.21.40.jpg" alt="nothing">
+            </div>
+            <div class="show-img">
+                <img class="fuck1" src="pictures/NarutovsCrab.jpg" alt="nothing">
+                <img class="fuck1" src="pictures/ưewewewe.png" alt="nothing" style="margin-left: 350px">
+            </div>
+        </div>
+    </div>
+    <div class="background-img-3">
+        <div class="about-me nguoiYeuMoi">
+            <div class="image">
+                <img src="pictures/life.png" alt="nothing" class="nguoiYeuMoi">
+            </div>
+            <div class="detail">
+                <p id="about" style="padding: 25px"></p>
+                <h1>about me</h1>
+                <p class="info-text">
+                    My name is Nguyen Quang Huy, I am currently a 2nd year student at the Post and Telecommunication Institute of Technology (PTIT), my major is Information Technology.
+                    I am following the direction of Web-Developer and want to become a Full-Stack Developer. </p>
+                <section>
+                    <h3 ><code>more information</code></h3>
+                    <ul class="fucking-list">
+                        <li> don't have girl friend</li>
+                        <li> good at cook</li>
+                        <li>good at game play</li>
+                        <li>enjoy watching horror movies, science fiction </li>
+                        <li>love taking photos, traveling</li>
+                        <li>like to eat vermicelli with shrimp paste</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="background-img-4">
+        <div id="footer">
+            <div class="inner clearfix">
+                <div>
+                    <p id="contact" style="font-size: 65px;">contact</p>
+                    <p style="margin-top: 50px; font-size: 18px"><strong>Nguyen Huy </strong><br>
+                        Web Developer in Ha Dong, Ha Noi <br>
+                        Available Freelance / Part time <br>
+                        Web Developer <br>
+                        Designer <br>
+                        UX/UI Designer <br>
+                        PTIT <br>
+                        <strong>Contact </strong><br>
+                        Email: tnanqh@gmail.com <br>
+                        Phone: 0942163753</p>
+                    <p>Message me before leave? <button onclick="document.getElementById('id01').style.display='block'" style="width:auto; margin-left:20px; border-radius: 15px">Click here</button></p>
+                    <div id="id01" class="modal">
+                        <form class="modal-content animate">
+                            <div class="imgcontainer">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                            </div>
+                            <div class="container">
+                                <label>Your name</label>
+                                <label>
+                                    <input type="text" placeholder="Your name" name="uname" required>
+                                </label>
+                                <label>Message</label>
+                                <label>
+                                    <input type="text" placeholder="Type here" name="uname" required>
+                                </label>
+                                <button type="submit">Send</button>
+                            </div>
+                            <div class="container" style="background-color:#f1f1f1">
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="follow-me">
+                    <ul>
+                        <li class="facebook"><a href="https://www.facebook.com/ngquag.huyy/">face</a></li>
+                        <li class="instagram"><a href="https://www.instagram.com/ngquag.huy/">Insta</a></li>
+                        <li class="github"><a href="https://github.com/gosu12">Github</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94904b8b-1fb6-499f-bba8-4ff68f1bce9a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="100" />
+    </hideBySeverity>
+  </component>
+  <component name="ProjectId" id="1hv7ZeRuDBKVDqegKTlyWxZOWIS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pictures" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\WebStorm\portolio\pictures" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\WebStorm\portolio\pictures" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94904b8b-1fb6-499f-bba8-4ff68f1bce9a" name="Default Changelist" comment="" />
+      <created>1600879768931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600879768931</updated>
+      <workItem from="1600879769973" duration="2127000" />
+      <workItem from="1600889774104" duration="10472000" />
+      <workItem from="1600923829904" duration="5274000" />
+      <workItem from="1600948852764" duration="10739000" />
+      <workItem from="1600994376809" duration="329000" />
+      <workItem from="1600995752709" duration="100000" />
+      <workItem from="1601006927463" duration="4354000" />
+      <workItem from="1601016528241" duration="1375000" />
+      <workItem from="1601017925973" duration="955000" />
+      <workItem from="1601018907816" duration="9075000" />
+      <workItem from="1601041312862" duration="2421000" />
+      <workItem from="1601043758103" duration="433000" />
+      <workItem from="1601115572626" duration="525000" />
+      <workItem from="1601116157103" duration="136000" />
+      <workItem from="1601216824659" duration="1535000" />
+      <workItem from="1601219811450" duration="10663000" />
+      <workItem from="1601273312898" duration="4184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601016739298">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1601016739298" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601228931990">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1601228931990" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1601021243118">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1601021243118" />
+  </component>
+</project>
